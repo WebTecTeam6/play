@@ -1,4 +1,4 @@
 This is your new Play 2.1 application
 =====================================
-
-This file will be packaged with your application, when using `play dist`.
+wenn ihr Probleme habt mit classpath in eclipse -> sucht in der .classpath "target\scala-2.10\classes_managed" und löscht den pfad davor dass nur noch das da steht
+trotzdem macht es kein problem soweit ich das sehe wenn eclipse damit nciht klarkommt, starten werdet ihr den server sowieso über konsole
