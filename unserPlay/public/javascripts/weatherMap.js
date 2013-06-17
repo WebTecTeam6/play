@@ -51,12 +51,18 @@ function toggleFullScreen(check) {
 
 function initialize() {
 //----------------------------------------------------------Overlays
-
+    // set different map types
+    var mapTypeIds = ["roadmap", "satellite", "OSM"];
 
     mapOptions = {
         center: new google.maps.LatLng(47.66, 9.16),
         zoom: 14,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        mapTypeControlOptions: {
+            mapTypeIds: mapTypeIds
+        },
+        disableDefaultUI: true,
+        mapTypeControl: true
     };
 
     map = new google.maps.Map(document.getElementById("mapCanvas"), mapOptions);
@@ -64,6 +70,16 @@ function initialize() {
     map.overlayMapTypes.push(null);	// Placeholder for Sites Overlay
     map.overlayMapTypes.push(null);	// Placeholder for OSM TOP + Sites
     map.overlayMapTypes.push(null);
+
+//-----------------------------------------------------------openstreetmap
+    map.mapTypes.set("OSM", new google.maps.ImageMapType({
+        getTileUrl: function (coord, zoom) {
+            return "http://tile.openstreetmap.org/" + zoom + "/" + coord.x + "/" + coord.y + ".png";
+        },
+        tileSize: new google.maps.Size(256, 256),
+        name: "OpenStreetMap",
+        maxZoom: 18
+    }));
 
 //-------------------------------------------------------setMapOverlays
     map.overlayMapTypes.setAt(0, mainMap);
@@ -224,5 +240,6 @@ function setAttributes(){
 $(document).ready(function () {
         initialize();
         setAttributes();
+        console.log($('.custom-container'))
     }
 );
