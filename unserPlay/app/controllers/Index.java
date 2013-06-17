@@ -1,10 +1,13 @@
 package controllers;
 
-import play.*;
-import play.mvc.*;
-import views.html.*;
-import views.html._include.*;
+import play.mvc.Controller;
+import play.mvc.Result;
+import views.html.contentHome;
+import views.html.main;
+import views.html._include.footer;
 import views.html._include.header;
+import views.html._include.navigation;
+import views.html._include.sidebar;
 
 public class Index extends Controller{
     public static Result index() {
