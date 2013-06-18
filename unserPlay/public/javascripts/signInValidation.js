@@ -42,14 +42,14 @@ function validateSignIn() {
 
 // firstname validation 
 function validateFirstname(valfield, infofield){
-	 var regExp = /[A-Z]{1}[a-z]{0,14}$/;
+	 var regExp = /[A-Z]{1}[a-z]{0,20}$/;
 
 	    if (valfield.value == "") {
 	        msg(infofield, "error", "ERROR: empty field.");
 	        return false;
 	    }
 	    else if (regExp.test(valfield.value) == false) {
-	        msg(infofield, "error", "ERROR: non-number character(s) found.");
+	        msg(infofield, "error", "ERROR: invalid name. First character has to be in upper-case letters. Please do not use numbers.");
 	        return false;
 	    }
 	    else {
@@ -60,14 +60,14 @@ function validateFirstname(valfield, infofield){
 
 // lastname validation
 function validateLastname(valfield, infofield){
-	 var regExp = /[A-Z]{1}[a-z]{0,14}$/;
+	 var regExp =  /[A-Z]{1}[a-z]{0,20}$/;
 
 	    if (valfield.value == "") {
 	        msg(infofield, "error", "ERROR: empty field.");
 	        return false;
 	    }
 	    else if (regExp.test(valfield.value) == false) {
-	        msg(infofield, "error", "ERROR: non-number character(s) found.");
+	        msg(infofield, "error", "ERROR: invalid name. First character has to be in upper-case letters. Please do not use numbers.");
 	        return false;
 	    }
 	    else {
@@ -78,14 +78,14 @@ function validateLastname(valfield, infofield){
 
 // age validation
 function validateAge(valfield, infofield){
-	 var regExp = /[0-9]{1,2}$/;
+	 var regExp =  /^([0-9]{1,2})$/; 
 
 	    if (valfield.value == "") {
 	        msg(infofield, "error", "ERROR: empty field.");
 	        return false;
 	    }
 	    else if (regExp.test(valfield.value) == false) {
-	        msg(infofield, "error", "ERROR: non-number character(s) found.");
+	        msg(infofield, "error", "ERROR: non-number character(s) found or age > 99.");
 	        return false;
 	    }
 	    else {
