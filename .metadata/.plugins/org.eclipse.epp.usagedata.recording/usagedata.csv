@@ -1,0 +1,103 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1371673184225
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1371673185466
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673186320
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673217013
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1371673236566
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1371673238472
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673240559
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673282456
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673290046
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673341797
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673356222
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673358335
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1371673361229
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673364190
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673369221
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1371673371588
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1371673373005
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673407546
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673411638
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673413950
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673415341
+activated,view,org.eclipse.wst.jsdt.ui,1.1.102.v201201131900,"org.eclipse.wst.jsdt.ui.PackageExplorer",1371673416998
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.102.v201201131900,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1371673420004
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673426951
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673535267
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673537933
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673548712
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673560805
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673561959
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673562293
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673564742
+activated,view,org.eclipse.wst.jsdt.ui,1.1.102.v201201131900,"org.eclipse.wst.jsdt.ui.PackageExplorer",1371673573583
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673589884
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673605367
+error,log,,,"Plug-in 'org.eclipse.eclipsemonkey' contributed an invalid Menu Extension (Path: 'org.eclipse.eclipsemonkey.navigatorContextMenu' is invalid): org.eclipse.eclipsemonkey.action2js",1371673613445
+error,log,,,"Plug-in 'org.eclipse.eclipsemonkey' contributed an invalid Menu Extension (Path: 'org.eclipse.eclipsemonkey.navigatorContextMenu' is invalid): org.eclipse.eclipsemonkey.action4js",1371673613445
+error,log,,,"Plug-in 'org.eclipse.eclipsemonkey' contributed an invalid Menu Extension (Path: 'org.eclipse.eclipsemonkey.navigatorContextMenu' is invalid): org.eclipse.eclipsemonkey.action5js",1371673613445
+error,log,,,"Plug-in 'org.eclipse.eclipsemonkey' contributed an invalid Menu Extension (Path: 'org.eclipse.eclipsemonkey.navigatorContextMenu' is invalid): org.eclipse.eclipsemonkey.action6js",1371673613446
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1371673615911
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673617410
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673664204
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673672270
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673740893
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673742254
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673775191
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673775798
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673776470
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673778721
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673778813
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673780167
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673780853
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673781213
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673788172
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673788541
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673789491
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.102.v201201131900,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1371673822054
+activated,view,org.eclipse.wst.jsdt.ui,1.1.102.v201201131900,"org.eclipse.wst.jsdt.ui.PackageExplorer",1371673827548
+error,log,,,"Plug-in 'org.eclipse.eclipsemonkey' contributed an invalid Menu Extension (Path: 'org.eclipse.eclipsemonkey.navigatorContextMenu' is invalid): org.eclipse.eclipsemonkey.action2js",1371673828181
+error,log,,,"Plug-in 'org.eclipse.eclipsemonkey' contributed an invalid Menu Extension (Path: 'org.eclipse.eclipsemonkey.navigatorContextMenu' is invalid): org.eclipse.eclipsemonkey.action4js",1371673828181
+error,log,,,"Plug-in 'org.eclipse.eclipsemonkey' contributed an invalid Menu Extension (Path: 'org.eclipse.eclipsemonkey.navigatorContextMenu' is invalid): org.eclipse.eclipsemonkey.action5js",1371673828182
+error,log,,,"Plug-in 'org.eclipse.eclipsemonkey' contributed an invalid Menu Extension (Path: 'org.eclipse.eclipsemonkey.navigatorContextMenu' is invalid): org.eclipse.eclipsemonkey.action6js",1371673828182
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673830915
+started,bundle,org.eclipse.jst.j2ee.core,1.2.102.v201202090300,"org.eclipse.jst.j2ee.core",1371673832682
+started,bundle,org.eclipse.jem,2.0.501.v201111030500,"org.eclipse.jem",1371673832836
+started,bundle,org.eclipse.wst.xml.core,1.1.602.v201201091944,"org.eclipse.wst.xml.core",1371673833075
+started,bundle,org.eclipse.wst.validation,1.2.303.v201202090300,"org.eclipse.wst.validation",1371673833136
+started,bundle,org.eclipse.jst.j2ee,1.1.503.v201202090300,"org.eclipse.jst.j2ee",1371673833318
+started,bundle,org.eclipse.papyrus.ui.resources,0.8.2.v201202150957,"org.eclipse.papyrus.ui.resources",1371673833431
+started,bundle,org.eclipse.acceleo.ide.ui,3.1.3.v20120214-0359,"org.eclipse.acceleo.ide.ui",1371673834378
+started,bundle,org.eclipse.acceleo.parser,3.1.3.v20120214-0359,"org.eclipse.acceleo.parser",1371673834480
+started,bundle,org.eclipse.ocl,3.1.0.v20120206-0606,"org.eclipse.ocl",1371673834727
+started,bundle,org.eclipse.acceleo.model,3.1.3.v20120214-0359,"org.eclipse.acceleo.model",1371673834727
+started,bundle,org.eclipse.ocl.ecore,3.1.2.v20111015-2027,"org.eclipse.ocl.ecore",1371673834857
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673834988
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1371673835003
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.102.v201201131900,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1371673836013
+executed,command,org.eclipse.wst.jsdt.ui,1.1.102.v201201131900,"org.eclipse.wst.jsdt.ui.edit.text.java.format",1371673839249
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1371673840557
+activated,editor,com.aptana.ide.editor.html,2.0.0.1278523018,"com.aptana.ide.editors.HTMLEditor",1371673842164
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.102.v201201131900,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1371673843292
+closed,editor,com.aptana.ide.editor.html,2.0.0.1278523018,"com.aptana.ide.editors.HTMLEditor",1371673843292
+activated,view,org.eclipse.wst.jsdt.ui,1.1.102.v201201131900,"org.eclipse.wst.jsdt.ui.PackageExplorer",1371673844581
+closed,editor,org.eclipse.wst.jsdt.ui,1.1.102.v201201131900,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1371673844581
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673852925
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1371673861335
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1371673874453
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673949249
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1371673949257
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673956203
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673976115
+closed,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371673976409
+started,bundle,org.eclipse.papyrus.sasheditor.di,0.8.2.v201202150957,"org.eclipse.papyrus.sasheditor.di",1371673977138
+error,log,,,"Unexpected Error",1371673977557
+error,log,,,"Unexpected Error",1371673977560
+started,bundle,org.eclipse.draw2d,3.7.2.v20111017-2020,"org.eclipse.draw2d",1371673978043
+started,bundle,org.eclipse.papyrus.commands,0.8.2.v201202150957,"org.eclipse.papyrus.commands",1371673978284
+started,bundle,org.eclipse.emf.workspace,1.5.1.v20110823-1800,"org.eclipse.emf.workspace",1371673978462
+started,bundle,org.eclipse.gmf.runtime.emf.commands.core,1.4.0.v20100423-2359,"org.eclipse.gmf.runtime.emf.commands.core",1371673978465
+started,bundle,org.eclipse.papyrus.validation,0.8.2.v201202150957,"org.eclipse.papyrus.validation",1371673978467
+started,bundle,org.eclipse.emf.ecore.change,2.7.1.v20120127-1122,"org.eclipse.emf.ecore.change",1371673978551
+started,bundle,org.eclipse.papyrus.sysml.service.types,0.8.2.v201202150957,"org.eclipse.papyrus.sysml.service.types",1371673978808
+started,bundle,org.eclipse.papyrus.uml.service.types,0.8.2.v201202150957,"org.eclipse.papyrus.uml.service.types",1371673979302
