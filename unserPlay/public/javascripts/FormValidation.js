@@ -88,7 +88,7 @@ function validateLatitude(valfield, infofield) {
 			var outputLat = pad(valuesLat[0], 2) + '° '
 					+ formatValue(valuesLat[1]) + '\'N';
 			valid = true;
-			msg(infofield, "error", "Correct Format!!!!!!!!");
+			msg(infofield, "error", "Right formatting: " + outputLat);
 
 		}
 
