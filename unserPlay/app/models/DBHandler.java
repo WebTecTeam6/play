@@ -4,96 +4,88 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-
 import javax.persistence.Entity;
-
-
 import play.db.DB;
 import play.db.ebean.Model;
-
 
 @Entity
 public class DBHandler extends Model {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	public static Connection connection = DB.getConnection();
 
-    /**
-     *
-     */
-    private static final long serialVersionUID = 1L;
-    public String firstName = "Votze";
-    public String lastName = "Arsch";
-    public int age = 00;
-    public static Connection connection = DB.getConnection();
+	public static String setUser(String lastName, String firstName, String age) {
 
-    public static String setUser(String lastName, String firstName, String age) {
+		String sql;
+		try {
+			Statement stmt = connection.createStatement();
+			sql = "INSERT INTO Persons (FirstName, LastName, Age) VALUES('"
+					+ firstName + "', '" + lastName + "', '" + age + "')";
+			stmt.execute(sql);
 
-        String sql;
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+	}
 
+	public static Boolean isUserinDB(String lastName, String firstName,String age) {
 
-        try {
-            Statement stmt = connection.createStatement();
-            sql = "INSERT INTO Persons (FirstName, LastName, Age) VALUES('" + firstName + "', '" + lastName + "', '" + age + "')";
-            stmt.execute(sql);
+		String sql;
+		String lastOut = null;
+		String firstOut = null;
+		String ageOut = null;
+		Connection connection = DB.getConnection();
 
-        } catch (SQLException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
-        return null;
-    }
+		try {
+			Statement stmt = connection.createStatement();
+			sql = "SELECT * FROM Persons WHERE FirstName = \"" + firstName
+					+ "\" AND LastName = \"" + lastName + "\" AND Age = \""
+					+ age + "\"";
+			ResultSet rst = stmt.executeQuery(sql);
+			while (rst.next()) {
+				lastOut = rst.getString("LastName");
+				firstOut = rst.getString("FirstName");
+				ageOut = new Integer(rst.getInt("Age")).toString();
 
+			}
 
-    public static Boolean isUserinDB(String lastName, String firstName, String age) {
+			if (lastOut == (null) | firstOut == (null) | ageOut == (null)) {
+				return false;
+			} else {
+				return true;
+			}
 
-        String sql;
-        String lastOut = null;
-        String firstOut = null;
-        String ageOut = null;
-        Connection connection = DB.getConnection();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return false;
+	}
 
-        try {
-            Statement stmt = connection.createStatement();
-            sql = "SELECT * FROM Persons WHERE FirstName = \"" + firstName + "\" AND LastName = \"" + lastName + "\" AND Age = \"" + age + "\"";
-            ResultSet rst = stmt.executeQuery(sql);
-            while (rst.next()) {
-                lastOut = rst.getString("LastName");
-                firstOut = rst.getString("FirstName");
-                ageOut = new Integer(rst.getInt("Age")).toString();
+	public static ResultSet getUser(String lastName, String firstName, String age) {
 
-            }
-            //if(lastOut.equals(lastName)|| firstOut.equals(firstName)||ageOut.equals(age)){
-            if (lastOut == (null) | firstOut == (null) | ageOut == (null)) {
-                return false;
-            } else {
-                return true;
-            }
+		String sql;
+		ResultSet rst = null;
 
+		try {
+			Statement stmt = connection.createStatement();
 
-        } catch (SQLException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
-        return false;
-    }
+			sql = "SELECT * FROM Persons WHERE FirstName = \"" + firstName
+					+ "\" AND LastName = \"" + lastName + "\" AND Age = \""
+					+ age + "\"";
 
-    public static ResultSet getUser(String lastName, String firstName, String age) {
+			rst = stmt.executeQuery(sql);
 
-        String sql;
-        ResultSet rst = null;
-
-        try {
-            Statement stmt = connection.createStatement();
-
-            sql = "SELECT * FROM Persons WHERE FirstName = \"" + firstName + "\" AND LastName = \"" + lastName + "\" AND Age = \"" + age + "\"";
-
-            rst = stmt.executeQuery(sql);
-
-        } catch (SQLException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
-        return rst;
-    }
-
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return rst;
+	}
 
 }

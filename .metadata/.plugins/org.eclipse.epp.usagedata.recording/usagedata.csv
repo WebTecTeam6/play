@@ -1,0 +1,101 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.papyrus.ui.perspectiveconfiguration,0.8.2.v201202150957,"org.eclipse.papyrus.ui.perspectiveconfiguration",1371679210607
+started,bundle,org.eclipse.papyrus.uml.menu,0.8.2.v201202150957,"org.eclipse.papyrus.uml.menu",1371679210607
+started,bundle,org.eclipse.papyrus.uml.standard,0.8.2.v201202150957,"org.eclipse.papyrus.uml.standard",1371679210607
+started,bundle,org.eclipse.papyrus.uml.standard.edit,0.8.2.v201202150957,"org.eclipse.papyrus.uml.standard.edit",1371679210607
+started,bundle,org.eclipse.papyrus.widgets,0.8.2.v201202150957,"org.eclipse.papyrus.widgets",1371679210607
+started,bundle,org.eclipse.uml2.common.edit,1.5.0.v201005031530,"org.eclipse.uml2.common.edit",1371679210607
+started,bundle,org.eclipse.uml2.uml,3.2.100.v201108110105,"org.eclipse.uml2.uml",1371679210607
+started,bundle,org.eclipse.uml2.uml.edit,3.1.100.v201009281840,"org.eclipse.uml2.uml.edit",1371679210617
+started,bundle,org.eclipse.xtext.gmf.glue,0.8.2.v201202150957,"org.eclipse.xtext.gmf.glue",1371679210617
+started,bundle,com.aptana.ide.core,2.0.5.1278523018,"com.aptana.ide.core",1371679210617
+started,bundle,com.aptana.ide.core.epl,2.0.0.1278614541,"com.aptana.ide.core.epl",1371679210617
+started,bundle,com.aptana.ide.core.io,2.0.5.1278614541,"com.aptana.ide.core.io",1371679210617
+started,bundle,com.aptana.ide.core.ui,2.0.5.1278523018,"com.aptana.ide.core.ui",1371679210617
+started,bundle,com.aptana.ide.debug.core,2.0.0.1278523018,"com.aptana.ide.debug.core",1371679210617
+started,bundle,com.aptana.ide.debug.ui,2.0.0.1254164293,"com.aptana.ide.debug.ui",1371679210617
+started,bundle,com.aptana.ide.desktop.integration.protocolhandler,2.0.0.1278523018,"com.aptana.ide.desktop.integration.protocolhandler",1371679210617
+started,bundle,com.aptana.ide.desktop.integration.server,2.0.0.1278523018,"com.aptana.ide.desktop.integration.server",1371679210617
+started,bundle,com.aptana.ide.editors,2.0.5.1278523018,"com.aptana.ide.editors",1371679210617
+started,bundle,com.aptana.ide.epl,2.0.0.1278523018,"com.aptana.ide.epl",1371679210627
+started,bundle,com.aptana.ide.installer,2.0.5.1278523018,"com.aptana.ide.installer",1371679210628
+started,bundle,com.aptana.ide.intro,2.0.0.1278523018,"com.aptana.ide.intro",1371679210629
+started,bundle,com.aptana.ide.scripting,2.0.0.1278523018,"com.aptana.ide.scripting",1371679210629
+started,bundle,com.aptana.ide.server.jetty,2.0.0.1278523018,"com.aptana.ide.server.jetty",1371679210630
+started,bundle,com.aptana.ide.server.portal,2.0.0.1278523018,"com.aptana.ide.server.portal",1371679210631
+started,bundle,com.aptana.ide.syncing.core,2.0.5.1278614541,"com.aptana.ide.syncing.core",1371679210632
+started,bundle,com.aptana.ide.syncing.ui,2.0.5.1278614541,"com.aptana.ide.syncing.ui",1371679210633
+started,bundle,com.aptana.ide.update,2.0.5.1278523018,"com.aptana.ide.update",1371679210634
+started,bundle,com.aptana.ide.update.eclipse34,2.0.5.1278614541,"com.aptana.ide.update.eclipse34",1371679210635
+started,bundle,com.aptana.ide.update.eclipse35,2.0.5.1278614541,"com.aptana.ide.update.eclipse35",1371679210635
+started,bundle,com.aptana.ide.update.eclipse36,1.0.0.1278614541,"com.aptana.ide.update.eclipse36",1371679210636
+started,bundle,com.aptana.ide.update.ui,2.0.0.1278614541,"com.aptana.ide.update.ui",1371679210636
+started,bundle,org.eclipse.eclipsemonkey,2.0.5.1278445773,"org.eclipse.eclipsemonkey",1371679210637
+started,bundle,org.eclipse.eclipsemonkey.lang.javascript,2.0.0.1277749615,"org.eclipse.eclipsemonkey.lang.javascript",1371679210638
+started,bundle,org.eclipse.egit.core,1.3.0.201202151440-r,"org.eclipse.egit.core",1371679210639
+started,bundle,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui",1371679210641
+started,bundle,org.eclipse.jgit,1.3.0.201202151440-r,"org.eclipse.jgit",1371679210642
+started,bundle,org.eclipse.mylyn.github.ui,1.3.0.201202151440-r,"org.eclipse.mylyn.github.ui",1371679210644
+os,sysinfo,,,"win32",1371679210654
+arch,sysinfo,,,"x86_64",1371679210654
+ws,sysinfo,,,"win32",1371679210654
+locale,sysinfo,,,"de_DE",1371679210654
+processors,sysinfo,,,"4",1371679210654
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1371679210654
+java.runtime.version,sysinfo,,,"1.6.0_25-b06",1371679210654
+java.specification.name,sysinfo,,,"Java Platform API Specification",1371679210654
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1371679210654
+java.specification.version,sysinfo,,,"1.6",1371679210654
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1371679210654
+java.version,sysinfo,,,"1.6.0_25",1371679210654
+java.vm.info,sysinfo,,,"mixed mode",1371679210654
+java.vm.name,sysinfo,,,"Java HotSpot(TM) 64-Bit Server VM",1371679210654
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1371679210654
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1371679210654
+java.vm.specification.version,sysinfo,,,"1.0",1371679210654
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1371679210654
+java.vm.version,sysinfo,,,"20.0-b11",1371679210654
+started,bundle,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui",1371679210729
+started,bundle,org.eclipse.eclipsemonkey.doms,2.0.0.1277749615,"org.eclipse.eclipsemonkey.doms",1371679210871
+started,bundle,com.aptana.ide.server,2.0.0.1278523018,"com.aptana.ide.server",1371679211556
+started,bundle,com.aptana.ide.documentation,2.0.0.1278523018,"com.aptana.ide.documentation",1371679211796
+started,bundle,com.aptana.ide.samples.ui,2.0.0.1278614541,"com.aptana.ide.samples.ui",1371679211806
+started,bundle,com.aptana.ide.update.portal,2.0.0.1278614541,"com.aptana.ide.update.portal",1371679211836
+opened,editor,com.aptana.ide.server.portal,2.0.0.1278523018,"com.aptana.ide.server.portal.ui.MyAptanaEditor",1371679211846
+started,bundle,com.aptana.ide.server.core,2.0.0.1278523018,"com.aptana.ide.server.core",1371679212128
+started,bundle,org.eclipse.gmf.runtime.diagram.ui.resources.editor,1.4.1.v20101119-2230,"org.eclipse.gmf.runtime.diagram.ui.resources.editor",1371679215871
+started,bundle,org.eclipse.papyrus.core.adaptor.gmf,0.8.2.v201202150957,"org.eclipse.papyrus.core.adaptor.gmf",1371679215871
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371679215881
+started,bundle,org.eclipse.papyrus.layouttool,0.8.2.v201202150957,"org.eclipse.papyrus.layouttool",1371679215881
+started,bundle,org.eclipse.papyrus.layouttool.subeditor.gmf,0.8.2.v201202150957,"org.eclipse.papyrus.layouttool.subeditor.gmf",1371679215891
+started,bundle,org.eclipse.gmf.runtime.notation,1.5.0.v20110309-2159,"org.eclipse.gmf.runtime.notation",1371679232613
+started,bundle,org.eclipse.papyrus.editor,0.8.2.v201202150957,"org.eclipse.papyrus.editor",1371679232623
+started,bundle,org.eclipse.gmf.runtime.diagram.ui.actions,1.4.1.v20101221-2230,"org.eclipse.gmf.runtime.diagram.ui.actions",1371679232633
+started,bundle,org.eclipse.gmf.runtime.emf.type.core,1.4.0.v20100423-2359,"org.eclipse.gmf.runtime.emf.type.core",1371679232643
+started,bundle,org.eclipse.wst.jsdt.core,1.1.102.v201111090634,"org.eclipse.wst.jsdt.core",1371679232823
+started,bundle,org.eclipse.wst.jsdt.manipulation,1.0.300.v201104272153,"org.eclipse.wst.jsdt.manipulation",1371679232863
+started,bundle,org.eclipse.wst.jsdt.ui,1.1.102.v201201131900,"org.eclipse.wst.jsdt.ui",1371679232863
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.201.r372_v20111101-0700,"org.eclipse.ltk.core.refactoring",1371679233763
+started,bundle,org.eclipse.ltk.ui.refactoring,3.6.0.v20110928-1453,"org.eclipse.ltk.ui.refactoring",1371679234023
+opened,editor,org.eclipse.wst.jsdt.ui,1.1.102.v201201131900,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1371679234373
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.102.v201201131900,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1371679234453
+executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.RepositoriesViewOpen",1371679234483
+started,bundle,org.eclipse.core.variables,3.2.500.v20110928-1503,"org.eclipse.core.variables",1371679234683
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371679245937
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371679247498
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371679247738
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371679298484
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.selectAll",1371679300004
+started,bundle,org.eclipse.mylyn.java.tasks,3.8.4.v20130429-0100,"org.eclipse.mylyn.java.tasks",1371679300404
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1371679301184
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1371679303194
+started,bundle,org.eclipse.jdt.apt.core,3.3.500.v20110420-1015,"org.eclipse.jdt.apt.core",1371679303255
+started,bundle,org.eclipse.jdt.apt.pluggable.core,1.0.400.v20110305-1450,"org.eclipse.jdt.apt.pluggable.core",1371679303256
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371679305184
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371679364830
+activated,view,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.RepositoriesView",1371679366811
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371679371636
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371679395200
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371679400650
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371679460808
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1371679464405
