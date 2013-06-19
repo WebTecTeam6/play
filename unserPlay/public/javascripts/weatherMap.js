@@ -240,6 +240,5 @@ function setAttributes(){
 $(document).ready(function () {
         initialize();
         setAttributes();
-        console.log($('.custom-container'))
     }
 );
