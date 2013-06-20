@@ -32,6 +32,38 @@ var windMap = new google.maps.ImageMapType({
 //----------------------------------------------------------
 
 var toggleFullscreen = false;
+var poly;
+var wayPoints = new Array();
+var distance = parseFloat(0.00);
+
+function getDistance(path) {
+
+    if (path.getLength() >= 2) {
+        var temp2 =  (google.maps.geometry.spherical.computeDistanceBetween(wayPoints[wayPoints.length -2], wayPoints[wayPoints.length -1]) / 1000).toFixed(2);
+        var temp =   distance + parseFloat(temp2);
+         distance = temp;
+        $('#distance').val(distance.toFixed(2) + " km");
+    }
+}
+
+function addLatLng(event) {
+
+    var path = poly.getPath();
+
+    // Because path is an MVCArray, we can simply append a new coordinate
+    // and it will automatically appear
+    path.push(event.latLng);
+    // Add a new marker at the new plotted point on the polyline.
+    var marker = new google.maps.Marker({
+        position: event.latLng,
+        title: '#' + path.getLength(),
+        map: map,
+        draggable: true
+    });
+
+    wayPoints.push(marker.position);
+    getDistance(path);
+}
 
 function toggleFullScreen(check) {
     options = {
@@ -44,7 +76,11 @@ function toggleFullScreen(check) {
 
     if (check == true) {
         $('#seaMap').css(options);
+        $('#appFoms').hide();
+        $('#Weather-Information').hide();
     } else {
+        $('#appFoms').show();
+        $('#Weather-Information').show();
         $('#seaMap').removeAttr('style');
     }
 }
@@ -62,7 +98,8 @@ function initialize() {
             mapTypeIds: mapTypeIds
         },
         disableDefaultUI: true,
-        mapTypeControl: true
+        mapTypeControl: true,
+        draggableCursor: 'crosshair'
     };
 
     map = new google.maps.Map(document.getElementById("mapCanvas"), mapOptions);
@@ -85,8 +122,21 @@ function initialize() {
     map.overlayMapTypes.setAt(0, mainMap);
     map.overlayMapTypes.setAt(1, windMap);
     map.overlayMapTypes.setAt(2, tempMap);
+
+
+    var polyOptions = {
+        strokeColor: '#000000',
+        strokeOpacity: 1.0,
+        strokeWeight: 3
+    }
+    poly = new google.maps.Polyline(polyOptions);
+    poly.setMap(map);
+
+    // Add a listener for the click event
+    google.maps.event.addListener(map, 'click', addLatLng);
+
 }
-function setAttributes(){
+function setAttributes() {
 
 //create the check box items
     var checkOptions1 = {
@@ -238,7 +288,8 @@ function setAttributes(){
 }
 
 $(document).ready(function () {
-        initialize();
-        setAttributes();
-    }
-);
+    initialize();
+    setAttributes();
+
+
+});
